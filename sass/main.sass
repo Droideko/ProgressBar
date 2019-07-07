@@ -1,0 +1,43 @@
+*
+   padding: 0
+   margin: 0
+   box-sizing: border-box
+
+body
+   height: 100vh
+   width: 100%
+   background: #000
+   color: white
+   display: flex
+   justify-content: center
+   align-items: center
+
+.progress
+   transform-origin: center
+   transform: rotate(-90deg)
+
+
+.block
+   position: absolute
+   display: flex
+   align-items: center
+   justify-content: center
+   height: 50px
+   width: 160px
+   background: #3c88c7
+   border-radius: 2em
+   transition: 0.5s ease all
+   cursor: pointer
+   border: none
+   &:hover .block__text
+      color: #000000
+   &__text
+      font-style: italic
+      font-size: 1.3em
+      letter-spacing: 0.1em
+      transition: 0.5s ease all
+
+   
+
+
+     
