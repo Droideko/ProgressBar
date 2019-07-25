@@ -14,8 +14,8 @@ block.addEventListener('click', (e) => {
          clearInterval(handler);
          block.style.pointerEvents = "auto"
       } else {
-         width += 0.1;
-         +width.toFixed(1);
+         width = (width * 10 + 0.1 * 10) / 10;
+         console.log(width);
       }   
    },5);
-})
+});
